@@ -50,6 +50,9 @@ cc_library(
     ],
     include_prefix = "capnp",
     visibility = ["//visibility:public"],
+    deps = [
+      "//src/kj",
+    ]
 )
 
 cc_library(
